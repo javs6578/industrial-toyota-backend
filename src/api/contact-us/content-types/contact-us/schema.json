@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_uses",
+  "info": {
+    "singularName": "contact-us",
+    "pluralName": "contact-uses",
+    "displayName": "contact-us",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contact_name": {
+      "type": "string"
+    },
+    "contact_company": {
+      "type": "string"
+    },
+    "contact_mail": {
+      "type": "email"
+    },
+    "contact_city": {
+      "type": "string"
+    },
+    "contact_comment": {
+      "type": "text"
+    }
+  }
+}
